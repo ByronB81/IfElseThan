@@ -16,10 +16,8 @@ public class Hotel {
 
     if (summer && weekend) {
       System.out.println("Your stay is probably going to be expensive. It's peak travel season AND the weekend lol");
-    } else if (summer) {
-      System.out.println("Well kinda pricey... it is Summer");
-    } else if (weekend){
-      System.out.println("Might be more since it's the weekend");
+    } else if (summer || weekend) {
+      System.out.println("Well kinda pricey... but you'll be fine");
     } else {
       System.out.println("meh... stop whining. It won't be THAT expensive");
     }
